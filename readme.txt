@@ -1,6 +1,5 @@
 TideSynth v0.1
-Thank you for downloading TideSynth :~) Here’s all the info you’ll need to use it. 
-
+A Python script for prediction and sonification of tidal data. 
 
 Background
 Tidal data can be visualized as a complex waveform, much like an audio signal. If you run historical water height measurements through a Fourier transform function, you can visualize the frequencies and amplitudes of each harmonic which constitutes the original wave. 
@@ -36,11 +35,13 @@ After the output filepath is entered, TideSynth will generate a .wav file based 
 If the script returns errors, try removing spaces from folder names in the input and output file paths and try again.
 
 
+
 Extras
 
 TideSynth is designed to accept CSV based on data from the NOAA tidal harmonic constituent page. But other data can be used, so long as it’s formatted to match the format of the NOAA data. 
 
-For a challenge, try building a dataset based on the moons of Jupiter. You will need to find the period and current phase of each moon’s revolution. Since there are no historical water level data from the Jovian surface, you’ll need to use some other number for the “amplitude” value. The amplitudes of major tidal constituents are proportional to their gravitational force, which is easy to calculate. (We’re not so concerned with absolute values; it’s more about the ratio between a given moon’s amplitude and the largest constituent represented by the fundamental.) 
+For a challenge, try building a dataset based on the moons of Jupiter. You will need to find the period and current phase of each moon’s revolution. Since there are no historical water level data from the Jovian surface, you’ll need to use some other number for the “amplitude” value. The amplitudes of major tidal constituents are proportional to their gravitational force. We’re not so concerned with absolute values; it’s more about the ratio between a given moon’s amplitude and the largest constituent represented by the fundamental. Hint: check out the NASA Horizons API.
+
 
 
 For more information on tides and tide prediction, check out these NOAA publications:
@@ -50,6 +51,3 @@ For more information on tides and tide prediction, check out these NOAA publicat
 
   Special Publication No. 98: Manual of Harmonic Analysis and Prediction of Tides
   https://tidesandcurrents.noaa.gov/publications/SpecialPubNo98.pdf
-
-
-
