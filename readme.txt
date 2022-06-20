@@ -1,5 +1,6 @@
 TideSynth v0.1
 A Python script for prediction and sonification of tidal data. 
+by @coolwebfriend and @jgillner
 
 BACKGROUND
 
